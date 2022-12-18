@@ -1,0 +1,20 @@
+.wrapper {
+    grid-area: avatar;
+    width: fit-content;
+}
+
+.image {
+    border-radius: 2px;
+    width: 100%;
+}
+
+.name {
+    color: #b5b5b5;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    transform: scaleX(1.5);
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    grid-area: about;
+}
+
+.content {
+    margin: auto 0;
+}
+
+.header {
+    margin-top: 0;
+    text-align: center;
+}
+
+.paragraph {
+    text-indent: 1rem;
+}

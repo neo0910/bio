@@ -1,0 +1,8 @@
+.wrapper {
+    display: grid;
+    gap: 2rem 3rem;
+    grid-template-areas:
+        'avatar  about  about  about about'
+        'skills  skills  skills  skills skills';
+    padding: 3rem;
+}

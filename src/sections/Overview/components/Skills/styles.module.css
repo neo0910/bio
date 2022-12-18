@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px 16px;
+    grid-area: skills;
+}
+
+.skill {
+    color: #fff;
+    border-radius: 3px;
+    border-right: none;
+    border: 1px solid #b5b5b5;
+    background-color: #b5b5b5;
+    font-size: 12px;
+    padding: 2px 4px;
+    position: relative;
+    transition: transform .25s;
+}
+
+.skill:before {
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #b5b5b5;
+    border-top: 10px solid transparent;
+    content: '';
+    height: 0; 
+    left: 100%;
+    position: absolute;
+    top: -1px;
+    width: 0; 
+}
+
+.skill::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: '';
+    height: 4px;
+    position: absolute;
+    right: -4px;
+    top: 7px;
+    width: 4px;
+}
+
+.skill:hover {
+    transform: rotate(-5deg);
+}
